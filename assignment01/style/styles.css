@@ -1,0 +1,108 @@
+body {
+    background-color: rgba(72, 72, 72);
+    font-family: "DejaVu Serif Bold", serif;
+    color:black;
+    font-style: normal;
+}
+
+.tape {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
+    width: 612px;
+}
+
+.sheet {
+    margin-top: 5px;
+    height: 792px;
+    border-style: outset;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;;
+    text-align: left;
+    background-color: white;
+}
+
+.centerer {
+    width: 100%;
+    text-align: center;
+}
+
+.half {
+    width: 50%;
+    flex: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.centered-image {
+    width: 370px;
+    background-color: orange;
+}
+
+h1 {
+    font-size: 28px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+p {
+    text-indent: 2em;
+    font-size:14px;
+    font-weight:normal;
+    text-decoration: none;
+    line-height: 1.1em;
+    text-align: justify
+}
+
+#some-table {
+    font-size:14px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+#some-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#some-table th {
+    text-align: left;
+}
+
+li {
+    text-indent: 0;
+    font-size:14px;
+    color:black;
+    font-weight:normal;
+    text-decoration: none;
+}
+
+.poem-italic{
+    text-indent: 0;
+    font-size:14px;
+    font-style: italic;
+    color:black;
+    font-weight:normal;
+    text-decoration: none;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    margin-right: 10px;
+}
+
+.poem-line{
+    text-indent: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.plain{
+    text-indent: 0;
+    font-family:arial;
+}
